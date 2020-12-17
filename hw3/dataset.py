@@ -7,7 +7,7 @@ import torch
 import torch.utils.data as data
 import torchvision.transforms as transforms
 
-from git.utils import is_image_file, load_img
+from utils import is_image_file, load_img
 
 
 class DatasetFromFolder(data.Dataset):
